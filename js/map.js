@@ -6,18 +6,34 @@ var dojoConfig = {
 
 require([
   "esri/views/MapView",
-  "esri/WebMap",
+  "esri/Map",
   "esri/widgets/Legend",
   "esri/widgets/Expand",
   "esri/widgets/Bookmarks",
   "esri/widgets/Home",
   "esri/core/lang",
   "esri/core/promiseUtils",
-  "esri/core/watchUtils"
+  "esri/core/watchUtils",
+  "esri/layers/VectorTileLayer"
+  
 ], function(
-  MapView, WebMap, Legend, Expand, Bookmarks, Home,lang, promiseUtils,
-  watchUtils
+  MapView, Map, Legend, Expand, Bookmarks, Home,lang, promiseUtils,
+  watchUtils,VectorTileLayer
   ){
+
+      document.getElementsByClassName('periodic-element ')[0]
+        .addEventListener('click', function (event) {
+            // do something
+            var  per = event.currentTarget.attributes["data-description"].nodeValue;
+            console.log (per);
+
+            //debugger;
+
+  
+        });
+
+  // get id person
+   
 
   let doughnutChart, pieChartProfes, totalInscritos, universidad, totalAdmitidos, porcentajeAdmitidos, totalMatriculados,
       docentesCatedra, docentesTCompleto, docentesTMedio, porcentajeDTC, docentes;
@@ -29,20 +45,28 @@ require([
    * To load a WebMap from an on-premise portal, set the portal
    * url with esriConfig.portalUrl.
    ************************************************************/
-  var webmap = new WebMap({
-    portalItem: { // autocasts as new PortalItem()
-      id: "0b9126d4046c42e1ac9f9b59ff35ba04"
-    }
-  });
+  var map = new Map();
+
+
+ 
 
   /************************************************************
    * Set the WebMap instance to the map property in a MapView.
    ************************************************************/
   var view = new MapView({
-    map: webmap,
-    container: "viewDiv",
+        container: "viewDiv",
+        map: map,
+        center: [-98.5795, 39.8282],
+        zoom: 3,
+      });
 
-  });
+  var tileLayer = new VectorTileLayer({
+  // URL to the vector tile service
+  url: "https://www.arcgis.com/sharing/rest/content/items/87f5276a633e412287a30c74ea00d3c2/resources/styles/root.json"
+  });  
+    map.add(tileLayer); 
+  
+   
   /* Legend Expand */
   const legendExpand = new Expand({
         view: view,
@@ -357,3 +381,6 @@ require([
 
 //  ====================================================================================================================
 });
+
+
+

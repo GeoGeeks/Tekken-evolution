@@ -1,0 +1,412 @@
+{
+  "Anna Williams": {
+    "Personaje": "Anna Williams",
+    "Edad": 41,
+    "Origen": "Irlanda",
+    "Enemigos": "Nina Williams",
+    "Estilo de lucha": "Koppojutsu, Hapkido.",
+    "Apariciones": "Tekken 1, 2, 3, 4, 5, 5: Dark Resurrection",
+    "Latitud": 53,
+    "Longitud": -8
+  },
+  "Alisa Bosconovitch": {
+    "Personaje": "Alisa Bosconovitch",
+    "Edad": 19,
+    "Origen": "Rusia",
+    "Enemigos": "Cualquier enemigo de Jin Kazama",
+    "Estilo de lucha": "Danza",
+    "Apariciones": "Tekken 6",
+    "Latitud": 60,
+    "Longitud": 100
+  },
+  "Asuka Kazama": {
+    "Personaje": "Asuka Kazama",
+    "Edad": 18,
+    "Origen": "Japón",
+    "Enemigos": "Feng Wei, Lili, Jin Kazama",
+    "Estilo de lucha": "Jiu-jitsu",
+    "Apariciones": "Tekken 5, 6",
+    "Latitud": 36,
+    "Longitud": 138
+  },
+  "Bob Richards": {
+    "Personaje": "Bob Richards",
+    "Edad": 27,
+    "Origen": "EEUU",
+    "Enemigos": "",
+    "Estilo de lucha": "Karate Mixto ó freestyle",
+    "Apariciones": "Tekken 6",
+    "Latitud": 38,
+    "Longitud": -97
+  },
+  "Bryan Fury": {
+    "Personaje": "Bryan Fury",
+    "Edad": 31,
+    "Origen": "EEUU",
+    "Enemigos": "Lei Wulong, Yoshimitsu",
+    "Estilo de lucha": "Kick-boxing",
+    "Apariciones": "Tekken 3, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 38,
+    "Longitud": -97
+  },
+  "Jin Kazama": {
+    "Personaje": "Jin Kazama",
+    "Edad": 21,
+    "Origen": "Japón",
+    "Enemigos": "Ogre, Hwoarang, Heihachi Mishima, Kazuya Mishima, Miguel Caballero Rojo",
+    "Estilo de lucha": "Karate tradicional",
+    "Apariciones": "Tekken 3, Tag Tourment 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 36,
+    "Longitud": 138
+  },
+  "Eddy Gordo": {
+    "Personaje": "Eddy Gordo",
+    "Edad": 29,
+    "Origen": "Brasil",
+    "Enemigos": "Kazuya Mishima",
+    "Estilo de lucha": "Capoeira",
+    "Apariciones": "Tekken 3, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": -10,
+    "Longitud": -55
+  },
+  "Feng Wei": {
+    "Personaje": "Feng Wei",
+    "Edad": 27,
+    "Origen": "China",
+    "Enemigos": "Lei Wulong, Asuka Kazama, Wang Jinrei",
+    "Estilo de lucha": "Artes marciales chinas",
+    "Apariciones": "Tekken 5, 6",
+    "Latitud": 35,
+    "Longitud": 105
+  },
+  "Heihachi Mishima": {
+    "Personaje": "Heihachi Mishima",
+    "Edad": 75,
+    "Origen": "Japón",
+    "Enemigos": "Kazuya Mishima, Jin Kazama",
+    "Estilo de lucha": "Kárate Mishima",
+    "Apariciones": "Tekken 1, 2, 3, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 36,
+    "Longitud": 138
+  },
+  "Hwoarang": {
+    "Personaje": "Hwoarang",
+    "Edad": 22,
+    "Origen": "Corea del sur",
+    "Enemigos": "Jin Kazama",
+    "Estilo de lucha": "Taekwondo",
+    "Apariciones": "Tekken 3, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 37,
+    "Longitud": "127,5"
+  },
+  "Kazuya Mishima": {
+    "Personaje": "Kazuya Mishima",
+    "Edad": 45,
+    "Origen": "Japón",
+    "Enemigos": "Heihachi Mishima, Paul Phoenix, Jin Kazama, Lee Chaolan, Eddy Gordo, Lars Alexandersson, Akuma",
+    "Estilo de lucha": "Kárate Mishima",
+    "Apariciones": "Tekken 1, 2, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 36,
+    "Longitud": 138
+  },
+  "King": {
+    "Personaje": "King",
+    "Edad": 31,
+    "Origen": "Mexico",
+    "Enemigos": "Ogre, Armor King II",
+    "Estilo de lucha": "Estilo personal de lucha libre mexicana avanzada",
+    "Apariciones": "Tekken 1, 2, 3, 4, 5, 6",
+    "Latitud": "23,634501",
+    "Longitud": "-102,552788"
+  },
+  "Kuma": {
+    "Personaje": "Kuma",
+    "Edad": "Desconocida",
+    "Origen": "Japón",
+    "Enemigos": "Paul Phoenix (Kuma I y Kuma II)\nJinpachi Mishima %u2020 (Kuma II)\nJin Kazama (Kuma II)",
+    "Estilo de lucha": "Kuma Shinken",
+    "Apariciones": "Tekken 1, 2, 3, 4, 5, 6",
+    "Latitud": 36,
+    "Longitud": 138
+  },
+  "Lars Alexandersson": {
+    "Personaje": "Lars Alexandersson",
+    "Edad": "Desconocida",
+    "Origen": "Suecia",
+    "Enemigos": "Mishima Zaibatsu",
+    "Estilo de lucha": "Kárate",
+    "Apariciones": "Tekken 6: Bloodline Rebellion",
+    "Latitud": 62,
+    "Longitud": 15
+  },
+  "Lee Chaolan": {
+    "Personaje": "Lee Chaolan",
+    "Edad": 49,
+    "Origen": "Japón",
+    "Enemigos": "Heihachi Mishima, Kazuya Mishima",
+    "Estilo de lucha": "Jeet Kune Do",
+    "Apariciones": "Tekken 1, 2, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 36,
+    "Longitud": 138
+  },
+  "Lei Wulong": {
+    "Personaje": "Lei Wulong",
+    "Edad": 47,
+    "Origen": "China",
+    "Enemigos": "Feng Wei, Bryan Fury, Jin Kazama, Kazuya Mishima",
+    "Estilo de lucha": "Kempo y Kung Fu",
+    "Apariciones": "Tekken 2, 3, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 35,
+    "Longitud": 105
+  },
+  "Leo Kliesen": {
+    "Personaje": "Leo Kliesen",
+    "Edad": 19,
+    "Origen": "Alemania",
+    "Enemigos": "Kazuya Mishima",
+    "Estilo de lucha": "Bajiquan",
+    "Apariciones": "Tekken 6: Bloodline Rebellion",
+    "Latitud": 51,
+    "Longitud": 9
+  },
+  "Lili Rochefort": {
+    "Personaje": "Lili Rochefort",
+    "Edad": 17,
+    "Origen": "Mónaco",
+    "Enemigos": "Asuka Kazama, Mishima Zaibatsu",
+    "Estilo de lucha": "Lucha callejera",
+    "Apariciones": "Tekken 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": "43,7333",
+    "Longitud": "7,4"
+  },
+  "Ling Xiaoyu": {
+    "Personaje": "Ling Xiaoyu",
+    "Edad": 19,
+    "Origen": "China",
+    "Enemigos": "",
+    "Estilo de lucha": "Artes marciales chinas Kung Fu y Wu shu",
+    "Apariciones": "Tekken 3, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 35,
+    "Longitud": 105
+  },
+  "Marshall Law": {
+    "Personaje": "Marshall Law",
+    "Edad": 49,
+    "Origen": "China",
+    "Enemigos": "Baek Doo San",
+    "Estilo de lucha": "Jeet Kune Do",
+    "Apariciones": "Tekken 1, 2, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 35,
+    "Longitud": 105
+  },
+  "Miguel Caballero Rojo": {
+    "Personaje": "Miguel Caballero Rojo",
+    "Edad": 26,
+    "Origen": "España",
+    "Enemigos": "Mishima Zaibatsu",
+    "Estilo de lucha": "Savate",
+    "Apariciones": "Tekken 6, 6: Bloodline Rebellion",
+    "Latitud": 40,
+    "Longitud": -4
+  },
+  "Nina Williams": {
+    "Personaje": "Nina Williams",
+    "Edad": 43,
+    "Origen": "Irlanda",
+    "Enemigos": "Anna Williams, Kazuya Mishima, Lei Wulong",
+    "Estilo de lucha": "Koppojutsu, Hapkido",
+    "Apariciones": "Tekken 1, 2, 3, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 53,
+    "Longitud": -8
+  },
+  "Panda": {
+    "Personaje": "Panda",
+    "Edad": 9,
+    "Origen": "China",
+    "Enemigos": "Kuma",
+    "Estilo de lucha": "Kuma Shinken",
+    "Apariciones": "Tekken 3, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 35,
+    "Longitud": 105
+  },
+  "Paul Phoenix": {
+    "Personaje": "Paul Phoenix",
+    "Edad": 49,
+    "Origen": "EEUU",
+    "Enemigos": "Kazuya Mishima\nKuma I %u2020\nKuma II",
+    "Estilo de lucha": "Artes marciales :Judo, Karate y el boxeo americano",
+    "Apariciones": "Tekken 1, 2, 3, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 38,
+    "Longitud": -97
+  },
+  "Sergei Dragunov": {
+    "Personaje": "Sergei Dragunov",
+    "Edad": 26,
+    "Origen": "Rusia",
+    "Enemigos": "Raven, Devil Jin, Jin Kazama, Master Raven",
+    "Estilo de lucha": "Sambo",
+    "Apariciones": "Tekken 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 60,
+    "Longitud": 100
+  },
+  "Steve Fox": {
+    "Personaje": "Steve Fox",
+    "Edad": 22,
+    "Origen": "Reino Unido",
+    "Enemigos": "Mishima Zaibatsu",
+    "Estilo de lucha": "Boxeo",
+    "Apariciones": "Tekken 4, 5, 6",
+    "Latitud": "51,50853",
+    "Longitud": "-0,12574"
+  },
+  "Yoshimitsu": {
+    "Personaje": "Yoshimitsu",
+    "Edad": "Desconocida",
+    "Origen": "Desconocido",
+    "Enemigos": "Bryan Fury, Kunimitsu",
+    "Estilo de lucha": "Manji Ninjutsu avanzado",
+    "Apariciones": "Tekken 1, 2, 3, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion",
+    "Latitud": 36,
+    "Longitud": 138
+  },
+  "Claudio Serafino": {
+    "Personaje": "Claudio Serafino",
+    "Edad": "Desconocida",
+    "Origen": "Italia",
+    "Enemigos": "",
+    "Estilo de lucha": "Hechicería de purificación estilo Sirio",
+    "Apariciones": "Tekken 7",
+    "Latitud": "42,8333",
+    "Longitud": "12,8333"
+  },
+  "Eliza": {
+    "Personaje": "Eliza",
+    "Edad": "Más de 600",
+    "Origen": "Desconocido",
+    "Enemigos": "",
+    "Estilo de lucha": "Magia Oscura",
+    "Apariciones": "Tekken 7",
+    "Latitud": 46,
+    "Longitud": 25
+  },
+  "Gigas": {
+    "Personaje": "Gigas",
+    "Edad": "",
+    "Origen": "Desconocido",
+    "Enemigos": "Heihachi Mishima, Kasuya Mishima",
+    "Estilo de lucha": "Savate",
+    "Apariciones": "Tekken 7",
+    "Latitud": -10,
+    "Longitud": -55
+  },
+  "Jack 7": {
+    "Personaje": "Jack 7",
+    "Edad": "Desconocida",
+    "Origen": "Rusia",
+    "Enemigos": "",
+    "Estilo de lucha": "Fuerza bruta",
+    "Apariciones": "Tekken 7",
+    "Latitud": 60,
+    "Longitud": 100
+  },
+  "Josie Rizal": {
+    "Personaje": "Josie Rizal",
+    "Edad": "Desconocida",
+    "Origen": "Filipinas",
+    "Enemigos": "",
+    "Estilo de lucha": "Eskrima",
+    "Apariciones": "Tekken 7",
+    "Latitud": 13,
+    "Longitud": 122
+  },
+  "Katarina Alves": {
+    "Personaje": "Katarina Alves",
+    "Edad": "Desconocida",
+    "Origen": "Brasil",
+    "Enemigos": "Mishima Zaibatsu",
+    "Estilo de lucha": "Savate",
+    "Apariciones": "Tekken 7",
+    "Latitud": -10,
+    "Longitud": -55
+  },
+  "Kazumi Mishima": {
+    "Personaje": "Kazumi Mishima",
+    "Edad": "Desconocida",
+    "Origen": "Japón",
+    "Enemigos": "Heihachi Mishima",
+    "Estilo de lucha": "Kárate",
+    "Apariciones": "Tekken 7",
+    "Latitud": 36,
+    "Longitud": 138
+  },
+  "Lucky Chloe": {
+    "Personaje": "Lucky Chloe",
+    "Edad": 18,
+    "Origen": "Desconocido",
+    "Enemigos": "",
+    "Estilo de lucha": "Freestyle dance",
+    "Apariciones": "Tekken 7",
+    "Latitud": 38,
+    "Longitud": -97
+  },
+  "Raven": {
+    "Personaje": "Raven",
+    "Edad": "Desconocida",
+    "Origen": "Canadá",
+    "Enemigos": "Sergei Dragunov",
+    "Estilo de lucha": "Ninjutsu",
+    "Apariciones": "Tekken 7",
+    "Latitud": "49,28862",
+    "Longitud": "-123,11133"
+  },
+  "Shaheen": {
+    "Personaje": "Shaheen",
+    "Edad": "Desconocida",
+    "Origen": "Arabia Saudita",
+    "Enemigos": "Kazuya Mishima",
+    "Estilo de lucha": "Artes marciales militares",
+    "Apariciones": "Tekken 7",
+    "Latitud": 25,
+    "Longitud": 45
+  },
+  "Akuma": {
+    "Personaje": "Akuma",
+    "Edad": "Más 50",
+    "Origen": "Japón",
+    "Enemigos": "Ryu, Ken, Gouken",
+    "Estilo de lucha": "Ansatsuken",
+    "Apariciones": "Street Fighter",
+    "Latitud": 36,
+    "Longitud": 138
+  },
+  "Geese Howard": {
+    "Personaje": "Geese Howard",
+    "Edad": 43,
+    "Origen": "EEUU",
+    "Enemigos": "",
+    "Estilo de lucha": "Artes marciales tradicionales y ancestrales japonesas",
+    "Apariciones": "Fatal Fury",
+    "Latitud": 38,
+    "Longitud": -97
+  },
+  "Noctis Lucis Caelum": {
+    "Personaje": "Noctis Lucis Caelum",
+    "Edad": "Reino de Lucis",
+    "Origen": "",
+    "Enemigos": "",
+    "Estilo de lucha": "Invocacion de armas",
+    "Apariciones": "",
+    "Latitud": "22,25",
+    "Longitud": "114,1667"
+  },
+  "Negan": {
+    "Personaje": "Negan",
+    "Edad": 51,
+    "Origen": "EEUU",
+    "Enemigos": "Caminantes, Simon, Rick Grimes, Susurradores, Beta, Alpha",
+    "Estilo de lucha": "Bate de béisbol con alambres",
+    "Apariciones": "The Walking Dead",
+    "Latitud": 38,
+    "Longitud": -97
+  }
+}
