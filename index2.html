@@ -1,0 +1,357 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>TEKKEN 7</title>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.10/esri/css/main.css">
+    <script src="https://js.arcgis.com/4.10/"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+            crossorigin="anonymous"></script>
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/map.js"></script>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.9/esri/css/main.css">
+    <!--<link rel="stylesheet" href="https://js.arcgis.com/4.9/dijit/themes/claro/claro.css"> -->
+       <!-- Load CSS CDN's -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css"/>-->
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- animatedModal.js-->
+</head>
+<body>
+
+
+
+
+
+
+    <div class="container" style="height: 50%">
+      <img class="titulo" height="200px" src="https://i.pinimg.com/originals/9f/c1/bd/9fc1bde85ea020864ed9652ed116506c.png" title="Tekken 7">
+    <!--  <img id="banner" src="img/banners-02.png" alt="Banner Image" class="col-12"/> -->
+        <div class="row">
+
+
+          <!-- Left map Panel -->
+          <div class="col-lg-8 h-95 p-3">
+
+
+              <div class="row h-95 pt-1">
+                  <div  id="viewDiv" class="col-12">
+                      <div  class="bg-light rounded shadow h-100"></div>
+                  </div>
+              </div>
+
+          </div>
+
+            <!-- Right  Panel -->
+            <div class="col-lg-4 h-95 p-3">
+              <h3 style="color:#ffffff">Escenario: <span  id="tituloUni">0</span></h3>    
+                <!-- first subpanel -->
+                
+                <!-- Second subpanel -->
+                
+                        <div id= "title" class="bg-light rounded shadow h-95 p-2" style="max-height: 85%;">
+                          
+
+                          <p> Nombre: <span id='nombre'>0</span> <br/> Origen: <span id='origen'>X</span> <br/>
+                             Edad: <span id='edad'>0</span> <br/> Enemigos: <span id='enemigos'>0 </span> <br/> Apariciones <span id='apariciones'>0</span> <br>
+                              Estilo de lucha: <span id="lucha">0</span> <br/> </p>
+                          <iframe width='100%' src='https://www.youtube.com/embed/kKLCwDg2JLA' frameborder='0'></iframe>     
+                        </div>
+               </div>
+        </div>
+
+
+<div class="row">
+<div class="col-sm-12">
+<div class="periodic-table">
+  <div class="empty-spacer-1"></div>
+  <div class="empty-spacer-2"></div>
+
+  <div class="periodic-element social-media" data-description="Panda">
+    <div class="periodic-element-inner" >
+      <div class="title"><img class=imagenes src="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Panda_%28T7%29.png/220px-Panda_%28T7%29.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element just-trying" data-description="Eliza">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/8a/cd/04/8acd04ed1c348550ed2520ffa657c384.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Lee Chaolan">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/94/cf/be/94cfbec6fd9ee8b1b8b8cfe409748138.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Bob Richards">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/42/6b/da/426bdabed93a71fcccb647ffa5d20967.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Nina Williams">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/b0/40/bc/b040bcceaabd2ad31de9e979ba06b8e5.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element intense-work" data-description="Akuma">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/2b/ef/e9/2befe9fc336a3fc70385a930e4582171.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element just-trying" data-description="Kazumi Mishima">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/34/14/86/341486f2bfe3fcc7fdc309ead6d4e0df.png"></div>
+    </div>
+  </div>
+    
+  <div class="periodic-element just-trying" data-description="Raven">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/8f/0b/2d/8f0b2d5bfa2bdb9c332f84ed27119afc.png"></div>
+    </div>
+  </div>
+    
+  <div class="periodic-element social-media" data-description="Miguel Caballero Rojo">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/21/f8/d7/21f8d7663fd3dc8ecbf0e8c6272ef591.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Kuma">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/14/3b/50/143b5031cfb5d5726b82ed3745da176c.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Eddy Gordo">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/83/c9/bf/83c9bf4ec07da1a5af9d326ea67ec4b8.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Yoshimitsu">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/56/09/83/56098345c3ecdccdea3da1e09bbae652.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Sergei Dragunov">
+    <div class="periodic-element-inner">
+      <div class="title"> <img class=imagenes src="https://i.pinimg.com/originals/5a/ef/05/5aef0507dd806bc27da05c5ef1fff9f7.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Hwoarang">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/ba/05/f3/ba05f377ccde6ab14ad2d77bcec427f9.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Marshall Law">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/0a/cd/c0/0acdc070920679b3e2442af623e04c61.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Asuka Kazama">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/54/a3/2b/54a32b988c3cc5c3deab7a2f2c7f0a51.png"></div>
+    </div>
+  </div>
+    
+  <div class="periodic-element just-trying" data-description="Shaheen">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/84/9e/a0/849ea08c24e4b84c02d3a2902d1fa02d.png"></div>
+    </div>
+  </div>
+    
+  <div class="periodic-element social-media" data-description="Kazuya Mishima">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/38/59/e6/3859e695c755e4cb6e50e2d4837cf18f.png"></div>
+    </div>
+  </div>
+    
+  <div class="periodic-element social-media" data-description="Heihachi Mishima">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/cf/d9/59/cfd95965c5871865ae298fb6185774e2.png"></div>
+    </div>
+  </div>
+    
+  <div class="periodic-element just-trying" data-description="Claudio Serafino">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/24/96/5c/24965cc700fc36aabd9a41da6d1b98ce.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element just-trying" data-description="Lucky Chloe">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/78/d8/48/78d848b11e9386aaa6262c30a466227e.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Lili Rocherfort">
+    <div class="periodic-element-inner">
+      <div class="title"> <img class=imagenes src="https://i.pinimg.com/originals/1f/e1/80/1fe180fdda8c2998b6262c0489a5d8ee.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Lars Alexandersson">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/7e/de/63/7ede63bfccad330de3373275ccabf393.png"></div>
+   </div>
+ </div>
+
+  <div class="periodic-element social-media" data-description="King">
+    <div class="periodic-element-inner">
+      <div class="title"> <img class=imagenes src="https://i.pinimg.com/originals/f3/33/7d/f3337df80a4962a87717762aa2d968ab.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element just-trying" data-description="Jack">
+    <div class="periodic-element-inner">
+      <div class="title"> <img class=imagenes src="https://i.pinimg.com/originals/86/39/68/8639680d1d04da95f9709a01ae2c5e06.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Bryan Fury">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/6c/f1/3e/6cf13e71e56c5f6f243b7043ef92325b.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Steve Fox">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/4d/f8/e2/4df8e2cf3c3c94ae0f18be3077e1fc76.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Paul Phoenix">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/7a/0c/c3/7a0cc3dfb40f533861605fb8ba74f572.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Ling Xiaoyu">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/11/ab/b4/11abb47bf59fc5f47be06458be8fd01a.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element just-trying" data-description="Josie Rizal">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/d8/61/14/d86114ada4029ddff153fa8da813592d.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Jin Kazama">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/de/61/34/de6134a6d30f3d05f600de775a813e28.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Devil Jin">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/a0/9b/1e/a09b1e0c452a3d7f87b42e363f7a3b14.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element just-trying" data-description="Katarina Alves">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/22/03/85/220385d8bcb4cbeef747d5fb139dde1c.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element just-trying" data-description="Gigas">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/78/73/75/787375ca2ca155e3780b9c898035ba5b.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Leo Kliesen">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/19/59/77/195977428221e2ce6f5f159aed498ee9.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Alisa Bosconovitch">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/5f/09/82/5f098238588f33960c4dee60de8e9576.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Feng Wei">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/a1/32/80/a13280ff780316e958ca28915ca60bb5.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Anna Williams">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/e4/85/6d/e4856d92e8833dcc60fe7ba1340883f3.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element social-media" data-description="Lei Wulong">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/59/06/e6/5906e6f51ec10b862dd9511e2cc30c62.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element intense-work" data-description="Geese Howard">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/92/c1/76/92c1769b0cf864ea827e8115eb7f7093.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element intense-work" data-description="Noctis Lucis Caelum">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/0e/53/22/0e5322436bd6bcc715766c5216bde5d1.png"></div>
+    </div>
+  </div>
+
+  <div class="periodic-element intense-work" data-description="Negan">
+    <div class="periodic-element-inner">
+      <div class="title"><img class=imagenes src="https://i.pinimg.com/originals/bc/ef/36/bcef362b1d008ad3741c10c3dafcd74d.png"></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="legend-table">
+  <div class="legend-table__wrapper"><span class="legend-table__marker social-media"></span><span class="legend-table__text">Personajes que regresan</span><span class="legend-table__marker just-trying"></span><span class="legend-table__text">Personajes Nuevos</span><span class="legend-table__marker intense-work"></span><span class="legend-table__text">Personajes Invitados</span><br/>
+    <div class="legend-table__direction"></div>
+  </div>
+</div>
+
+<h5>Somos GeoGeeks Colombia</h5>
+<h5>Visítanos en nuestras redes sociales</h5>
+
+<footer>
+  <a href="https://twitter.com/geo_geeks" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.instagram.com/geo_geeks/?hl=es-la" target="_blank" class=instagram><i class="fab fa-instagram"></i></a>
+  <a href="https://www.youtube.com/channel/UCuGsuNbUykWZ6lsb85PeW0A" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>
+</footer>
+          </div>
+        </diV>  
+    </div>
+
+    <!--AQUI EMPIEZA LA PRUEBA -->
+
+    
+
+</body>
+</html>

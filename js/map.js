@@ -39,9 +39,22 @@ require([
         element.addEventListener('click', function (event) {
           //console.log(event.currentTarget.attributes[1].nodeValue);
           var nombrePersonaje = this.getAttribute("data-description");
-          alert(nombrePersonaje);
-          
-        });
+
+
+          map.remove(tileLayer);
+          map.remove(featureLayer);
+          map.remove(tileLayerA);
+
+          var arreglo = ["https://www.arcgis.com/sharing/rest/content/items/2f00e863b8f446fb8ad1a613d21b56ce/resources/styles/root.json", "https://www.arcgis.com/sharing/rest/content/items/f4292dec0d6546b88cb0b14ed11a27fd/resources/styles/root.json", "https://www.arcgis.com/sharing/rest/content/items/87f5276a633e412287a30c74ea00d3c2/resources/styles/root.json", "http://angpezam.maps.arcgis.com/sharing/rest/content/items/cba6e359a8724790aecea9e0aa28345f/resources/styles/root.json", "http://angpezam.maps.arcgis.com/sharing/rest/content/items/54e25f548fc949ae852ed36b4a65fbb8/resources/styles/root.json"]; 
+            var i = getRandomInt(4);
+            var tileLayerA = new VectorTileLayer({
+           // URL to the vector tile service
+              url: arreglo[i]
+             });
+            map.add(tileLayerA);
+            map.add(featureLayer);
+
+        }); 
       });
        
          var myFunction= function(){
@@ -69,14 +82,14 @@ require([
               console.log (per);
             
 
-            if (per == "Panda") {
+            if (nombrePersonaje  == "Panda") {
 
-              document.getElementById("nombre").innerHTML = "Panda";
-              document.getElementById("origen").innerHTML = "China";
-              document.getElementById("edad").innerHTML = "9";
-              document.getElementById("enemigos").innerHTML = "Kuma";
-              document.getElementById("lucha").innerHTML = "Kuma Shinken";
-              document.getElementById("apariciones").innerHTML = "Tekken 3, 4, 5, 5: Dark Resurrection, 6, 6: Bloodline Rebellion";
+              document.getElementById("nombre").innerHTML = attributes.Personajes;
+              document.getElementById("origen").innerHTML = attributes.Personajes;
+              document.getElementById("edad").innerHTML = attributes.Personajes;
+              document.getElementById("enemigos").innerHTML = attributes.Personajes;
+              document.getElementById("lucha").innerHTML = attributes.Personajes;
+              document.getElementById("apariciones").innerHTML = attributes.Personajes;
 
             }
 
@@ -84,7 +97,7 @@ require([
 
 
   
-        });*/
+        //});*/
 
   var map = new Map();
 
